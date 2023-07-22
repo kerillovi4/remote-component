@@ -4,7 +4,7 @@ import { fetchRemoteComponent } from "../fetchRemoteComponent";
 // eslint-disable-next-line @typescript-eslint/no-empty-function
 const noop = () => {};
 
-jest.mock("@paciolan/remote-module-loader", () => () => async () => {
+jest.mock("@ifaya/remote-module-loader", () => () => async () => {
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   const defaultComponent = () => {};
   // eslint-disable-next-line @typescript-eslint/no-empty-function

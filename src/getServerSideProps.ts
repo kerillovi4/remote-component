@@ -1,4 +1,4 @@
-import createLoadRemoteModule from "@paciolan/remote-module-loader";
+import createLoadRemoteModule from "@ifaya/remote-module-loader";
 
 interface GetServerSidePropsOptions {
   url: string;

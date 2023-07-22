@@ -1,6 +1,6 @@
-import createLoadRemoteModule from "@paciolan/remote-module-loader";
+import createLoadRemoteModule from "@ifaya/remote-module-loader";
 import { RemoteComponent } from "./createRemoteComponent";
-import { Fetcher } from "@paciolan/remote-module-loader/dist/models";
+import { Fetcher } from "@ifaya/remote-module-loader/dist/models";
 interface FetchRemoteComponentOptions {
   requires: (string) => unknown;
   fetcher?: Fetcher;
